@@ -1,0 +1,339 @@
+@media screen and (min-width:1024px){
+  
+
+.conteiner {
+  display: grid;
+  width: 100vw;
+  height: 80vh;
+  grid-template-rows: 0.5fr 3.3fr 1fr;
+}
+header {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  margin: 4vh;
+}
+.logo {
+  padding-left: 5vw;
+  padding-top: 4vh;
+}
+nav {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1fr;
+  margin-left: 15vw;
+}
+a {
+  display: grid;
+  justify-content: center;
+  align-content: flex-end;
+  text-decoration: none;
+  color: black;
+  font-family: "Roboto";
+  font-size: 1em;
+  grid-gap: 2vw;
+}
+button.help {
+  display: grid;
+  width: 12vw;
+  height: 6vh;
+  justify-self: center;
+  align-self: end;
+  align-items: center;
+  font-family: "Roboto";
+  font-size: 1.2em;
+  border: none;
+  color: white;
+  background-color: #75bf7a;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #adacac21;
+}
+.main_text {
+  display: grid;
+  padding-left: 6vw;
+  grid-template-rows: 70% 30%;
+}
+.text {
+  display: grid;
+  grid-template-rows: 50% 50%;
+  align-self: self-start;
+}
+p {
+  justify-self: stretch;
+  align-self: self-start;
+  padding-top: 2vh;
+  font-size: 1.5em;
+  font-weight: 500;
+  font-family: "Roboto";
+  color: #9e9da2;
+}
+h1 {
+  align-self: center;
+  padding-top: 10vh;
+  font-family: "Roboto";
+  font-size: 3em;
+  font-weight: 800;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 6vh;
+  margin-top: 10.5vh;
+  padding-right: 2vw;
+  grid-gap: 2vw;
+}
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  font-weight: 800;
+  font-size: 1em;
+  background-color: black;
+  color: white;
+}
+
+aside {
+  display: grid;
+  padding-left: 2vw;
+}
+.deco{
+  max-block-size: 70vw;
+}
+
+footer {
+  display: grid;
+  width: 90vw;
+  height: 24vh;
+  grid-template-columns: 1fr 2fr 1fr;
+  justify-self: center;
+  border-radius: 1vw;
+  background-color: #75bf7a;
+}
+span {
+  display: grid;
+  justify-self: center;
+  align-items: center;
+  font-family: "Roboto";
+  font-size: 1.3em;
+  font-weight: 600;
+  color: white;
+}
+input {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  margin-top: 8vh;
+  margin-bottom: 8vh;
+  margin-left: 10vw;
+  margin-right: 1vw;
+  font-family: "Roboto";
+}
+button.application {
+  display: grid;
+  width: 19vw;
+  justify-content: center;
+  align-content: center;
+  margin: 8vh 0px 8vh 0px;
+  font-family: "Roboto";
+  font-size: 1em;
+  font-weight: 800;
+  background-color: black;
+  color: white;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .conteiner {
+    display: grid;
+    width: 100vw;
+    height: 80vh;
+    grid-template-rows: 0.5fr 1fr 1fr; 
+  }
+  header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 4vh;
+  }
+  .logo {
+    padding-left: 5vw;
+    padding-top: 4vh;
+  }
+  nav {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr;
+    margin-left: 15vw;
+  }
+  a {
+    display: grid;
+    justify-content: center;
+    align-content: flex-end;
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto";
+    font-size: 1em;
+    grid-gap: 2vw;
+  }
+  button.help {
+    display:none;
+  }
+  main {
+    display: grid;
+    background-color: #adacac21;
+  }
+  .main_text {
+    display: grid;
+    grid-template-rows: 70% 30%;
+  }
+  .text {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    align-self: self-start;
+    justify-content: center;
+  }
+  p {
+    justify-self: stretch;
+    align-self: self-start;
+    padding-top: 2vh;
+    font-size: 1.5em;
+    font-weight: 500;
+    font-family: "Roboto";
+    color: #9e9da2;
+  }
+  h1 {
+    align-self: center;
+    padding-top: 10vh;
+    font-family: "Roboto";
+    font-size: 3em;
+    font-weight: 800;
+  }
+  .buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 6vh;
+    margin-top: 3.5vh;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    grid-gap: 2vw;
+  }
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto";
+    font-weight: 800;
+    font-size: 1em;
+    background-color: black;
+    color: white;
+  }
+  
+  aside {
+    display: grid;
+    justify-content: center;
+    padding-left: 2vw;
+  }
+  .deco{
+    max-block-size: 90%;
+  }
+  footer {
+  display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .conteiner {
+    display: grid;
+    width: 100vw;
+    height: 80vh;
+    grid-template-rows: 0.5fr 1fr 0.5fr;
+  }
+  header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 4vh;
+  }
+  .logo {
+    max-block-size: 50%;
+    padding-left: 2vw;
+    padding-top: 4vh;
+  }
+  nav {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr;
+    margin-left: 15vw;
+  }
+  a {
+    display: grid;
+    justify-content: center;
+    align-content: flex-end;
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto";
+    font-size: 1em;
+    padding: 5vw;
+  }
+  button.help {
+    display:none;
+  }
+  main {
+    display: grid;
+    background-color: #adacac21;
+  }
+  .main_text {
+    display: grid;
+    grid-template-rows: 70% 30%;
+  }
+  .text {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    align-self: self-start;
+    justify-content: center;
+  }
+  p {
+    justify-self: stretch;
+    align-self: self-start;
+    padding-top: 2vh;
+    font-size: 1.4em;
+    font-weight: 500;
+    font-family: "Roboto";
+    color: #9e9da2;
+  }
+  h1 {
+    align-self: center;
+    padding-top: 10vh;
+    font-family: "Roboto";
+    font-size: 3em;
+    font-weight: 800;
+  }
+  .buttons {
+    display: grid;
+    justify-self: center;
+    width: 30vw;
+    height: 6vh;
+    margin-top: 3.5vh;
+    padding-right: 2vw;
+    padding-left: 4vw;
+    grid-gap: 2vw;
+  }
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto";
+    font-weight: 800;
+    font-size: 1em;
+    background-color: black;
+    color: white;
+  }
+  
+  aside {
+    display: grid;
+    justify-content: center;
+    padding-left: 2vw;
+  }
+  .deco{
+    max-block-size: 100vw;
+  }
+  footer {
+  display: none;
+  }
+}
